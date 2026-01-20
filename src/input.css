@@ -7,10 +7,11 @@
     --color-secondary : #2F327D;
     --color-hero : #49BBBD;
     --color-para : #696984;
+    --breakpoint-xs : 480px;
 }
 
-.heading {
-    @apply text-8xl text-center bg-red-900 ;
+:root{
+    --my-shadow : rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
@@ -30,8 +31,16 @@
     gap : 1rem;
 }
 
+.success-text{
+    @apply bg-linear-to-r from-[#136CB5] to-hero bg-clip-text text-transparent text-3xl sm:text-5xl md:text-6xl font-light;
+}
+
 .primary-btn {
     @apply px-6 py-2 rounded-3xl bg-[#ffffff65] border-none text-white font-semibold;
+}
+
+.work-box{
+
 }
 }
 @media screen and (max-width : 768px) {
