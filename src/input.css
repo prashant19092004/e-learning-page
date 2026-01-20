@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+@theme {
+    --font-gravita : "Gravitas One", serif;
+    --color-primary : #00CBB8;
+    --color-secondary : #2F327D;
+    --color-hero : #49BBBD;
+    --color-para : #696984;
+}
+
+.heading {
+    @apply text-8xl text-center bg-red-900;
+}
+
+.primary-btn {
+    @apply px-3 py-2 rounded-3xl bg-[#ffffff65] border-none text-white font-semibold;
+}
+
+.flex-box {
+    @apply flex justify-center items-center gap-4;
+}
+
+.classname{
+    color : #ffffff65;
+}
+
+@layer utilities {
+  .clip-custom-shape {
+    clip-path: path('M 0% 0% L 100% 0% L 100% 55% L 0% 100% Z');
+  }
+}
+@media screen and (max-width : 768px) {
+    html {
+        font-size: 75%;
+    }
+}
