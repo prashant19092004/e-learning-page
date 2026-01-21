@@ -29,19 +29,20 @@
     justify-content: center;
     align-items: center;
     gap : 1rem;
-}
+    }
 
-.success-text{
-    @apply bg-linear-to-r from-[#136CB5] to-hero bg-clip-text text-transparent text-3xl sm:text-5xl md:text-6xl font-light;
-}
+    .success-text{
+        @apply bg-linear-to-r from-[#136CB5] to-hero bg-clip-text text-transparent text-3xl sm:text-5xl md:text-6xl font-light;
+    }
 
-.primary-btn {
-    @apply px-6 py-2 rounded-3xl bg-[#ffffff65] border-none text-white font-semibold;
-}
+    .primary-btn {
+        @apply px-6 py-2 rounded-3xl bg-[#ffffff65] border-none text-white font-semibold;
+    }
 
-.work-box{
+    .tag {
+        @apply relative after:content-[''] after:absolute after:px-4 after:py-1 after:text-xs after:bottom-2 after:right-2 after:bg-hero after:z-5 after:text-white after:rounded-full;
+    }
 
-}
 }
 @media screen and (max-width : 768px) {
     html {
