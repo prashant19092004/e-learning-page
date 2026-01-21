@@ -458,7 +458,7 @@ Student results are automatically entered in the online gradebook.
         </div>
       </section>
 
-      <section class="news-section px-8 sm:px-12 md:px-14 lg:px-16 xl:px-20">
+      <section class="news-section px-8 sm:px-12 md:px-14 lg:px-16 xl:px-20 py-10">
         <div class="flex-box flex-col text-center">
           <h2 class="text-2xl font-bold text-secondary">
             Lastest News and Resources
@@ -469,7 +469,7 @@ Student results are automatically entered in the online gradebook.
 
           <div class="flex-box items-start gap-8 flex-wrap">
             <div class="basis-full sm:basis-[45%] flex-box flex-col items-start text-left">
-              <div class="tag after:content-['NEWS']">
+              <div class="tag after:hidden sm:after:block after:content-['NEWS']">
                 <img class="aspect-[6/3] w-full" src="../images/pic10.png" alt="laptop screen">
               </div>
               <h3 class="text-lg lg:text-xl text-black">Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h3>
@@ -478,21 +478,21 @@ Student results are automatically entered in the online gradebook.
             </div>
             <div class="basis-full sm:basis-[48%] flex-box flex-col">
               <div class="col-span-2 flex-box">
-                <div class="tag w-[35%] after:content-['PRESS-RELEASE'] after:text-[8px]"><img class="aspect-[6/4] w-full" src="../images/pic11.png" alt="a little girl studing from tab"></div>
+                <div class="tag after:hidden md:after:block w-[35%] after:content-['PRESS-RELEASE'] after:text-[8px]"><img class="aspect-[6/4] w-full" src="../images/pic11.png" alt="a little girl studing from tab"></div>
                 <div class="flex-box flex-col items-start text-left gap-2">
                   <h4 class="text-sm lg:text-md text-black">Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h4>
                   <p class="text-para text-xs lg:text-sm">Class Technologies Inc., the company that created Class,...</p>
                 </div>
               </div>
               <div class="col-span-2 flex-box">
-                <div class="tag w-[35%] after:content-['NEWS'] after:text-[8px]"><img class="aspect-[6/4] w-full" src="../images/pic12.png" alt="a little girl studing from tab"></div>
+                <div class="tag after:hidden md:after:block w-[35%] after:content-['NEWS'] after:text-[8px]"><img class="aspect-[6/4] w-full" src="../images/pic12.png" alt="a little girl studing from tab"></div>
                 <div class="flex-box flex-col items-start text-left gap-2">
                   <h4 class="text-sm lg:text-md text-black">Zoom’s earliest investors are betting millions on a better Zoom for schools</h4>
                   <p class="text-para text-xs lg:text-sm">Zoom was never created to be a consumer product. Nonetheless, the...</p>
                 </div>
               </div>
               <div class="col-span-2 flex-box">
-                <div class="tag w-[35%] after:content-['NEWS'] after:text-[8px]"><img class="aspect-[6/4] w-full" src="../images/pic13.png" alt="a little girl studing from tab"></div>
+                <div class="tag after:hidden md:after:block w-[35%] after:content-['NEWS'] after:text-[8px]"><img class="aspect-[6/4] w-full" src="../images/pic13.png" alt="a little girl studing from tab"></div>
                 <div class="flex-box flex-col items-start text-left gap-2">
                   <h4 class="text-sm lg:text-md text-black">Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h4>
                   <p class="text-para text-xs lg:text-sm">This year, investors have reaped big financial returns from betting on Zoom...</p>
@@ -502,6 +502,39 @@ Student results are automatically entered in the online gradebook.
           </div>
         </div>
       </section>
+
+      <footer class="px-8 sm:px-12 md:px-14 lg:px-16 xl:px-20 py-10 bg-[#252641]">
+        <div class="flex-box flex-col gap-12">
+          <div class="flex-box gap-8">
+            <img class="size-x-[60px] lg:size-x-[100px]" src="../images/logo.png" alt="logo">
+            <div class="h-[70px] lg:h-[100px] bg-white/30 w-[1px]"></div>
+            <h3 class="w-[100px] lg:w-[140px] font-medium text-md lg:text-xl text-white">Virtual Class for Zoom</h3>
+          </div>
+
+          <div class="flex-box flex-col">
+            <p class="text-para text-xl font-medium">Subscribe to get our Newsletter</p>
+            <div class="flex-box">
+              <div class="border px-4 py-2 border-white/40 rounded-full ">
+                <input class="bg-transparent text-para w-[100px] xs:w-[150px] sm:w-[250px] border-none focus:outline-none placeholder:text-para" type="text" placeholder="Your Email">
+              </div>
+              <button class="primary-btn bg-hero text-white font-normal">
+                Subscribe
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex-box text-para text-xs xs:text-sm sm:text-md">
+              <p>Careers</p>
+              <div class="w-[1px] h-[16px] bg-white/30"></div>
+              <p>Privacy Policy</p>
+              <div class="w-[1px] h-[16px] bg-white/30"></div>
+              <p>Terms & Conditions</p>
+            </div>
+            <p class="text-para text-md text-center">&copy; 2021 Class Technologies Inc. </p>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
